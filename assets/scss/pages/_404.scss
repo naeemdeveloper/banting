@@ -1,0 +1,28 @@
+.not-found {
+  .content-wrapper {
+    height: calc(100vh - 200px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .page-heading {
+      color: var(--dark-blue-1);
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 16px;
+      margin: 20px 0 30px 0;
+    }
+
+    .template-btn {
+      margin-top: 20px;
+    }
+  }
+  .media {
+    height: calc(100vh - 200px);
+    img {
+      height: 100%;
+    }
+  }
+}

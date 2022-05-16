@@ -1,0 +1,51 @@
+.achievement-section {
+  h2 {
+    font-family: var(--main-font);
+    color: var(--heading-color);
+    position: relative;
+    font-size: 52px;
+    &:before {
+      content: '\f518';
+      font-family: 'Font Awesome 5 Free';
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: rgba(85, 85, 85, 0.1);
+      font-size: 80px;
+    }
+  }
+
+  h4 {
+    font-size: 18px;
+    color: rgba(85, 85, 85, 0.9);
+  }
+  
+}
+
+// achevents style 2 form homepage-4
+.achievements-style-2 {
+  background: url("../img/University/Homepage_4/cournter_bg.png") no-repeat
+    center center / cover;
+  position: relative;
+
+  .overaly {
+    background: rgba(#242e50, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 9;
+    * {
+      color: var(--white);
+    }
+    h4 {
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+// contact breadcrumb
+.contact-breadcrumb {
+  overflow: hidden;
+  margin-top: 24px;
+  .row {
+    .content {
+      background-color: var(--light-grey-3);
+      height: 300px;
+      position: relative;
+      top: 30px;
+      .inner-content {
+        padding: 4rem 8% 3rem 30%;
+      }
+      .page-heading {
+        text-transform: capitalize;
+      }
+      .breadcrub-style {
+        margin-top: 20px;
+        a,span {
+          color: var(--icon-color);
+          text-transform: capitalize;
+        }
+      }
+    }
+    .map {
+      background: url("../img/University/Contact_us/Map_Screen_Shot.png")
+        no-repeat center center / cover;
+      height: 370px;
+      position: relative;
+
+      .zoom-in-out {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        .zoom-in,
+        .zoom-out {
+          height: 40px;
+          width: 40px;
+          background-color: var(--dark-grey-3);
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          cursor: pointer;
+          i {
+            color: var(--white);
+            font-size: 14px;
+          }
+        }
+
+        .zoom-out {
+          position: relative;
+          left: -40px;
+        }
+      }
+    }
+  }
+}
+
+
+// contact details
+.contact-details-section {
+  .contact-info {
+    .openings {
+      margin: 0;
+      margin-bottom: 40px;
+    }
+    .social-icons {
+      margin-top: 40px;
+      i {
+        margin: 0 10px 0 0;
+        font-size: 16px;
+        color: var(--heading-color);
+      }
+    }
+  }
+
+  .message-from {
+    .form-style-2 {
+      margin-top: 40px;
+    }
+    .form-group {
+      label {
+        margin: 0;
+      }
+      .small-text {
+        margin: 0;
+        bottom: -18px;
+      }
+    }
+    .template-btn {
+      margin-top: 20px;
+    }
+  }
+}

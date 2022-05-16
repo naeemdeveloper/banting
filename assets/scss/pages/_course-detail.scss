@@ -1,0 +1,64 @@
+.course-detail {
+  .container-fluid {
+    padding: 0;
+    h2 {
+      margin-bottom: 60px;
+    }
+    .content {
+      padding-right: 2.5rem;
+      h6 {
+        font-size: 20px;
+        color: var(--heading-color);
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+      }
+
+      .about, .requirements, .summary {
+        margin: 2rem 0;
+      }
+
+      .about {
+        p {
+          margin-bottom: 1.5rem;
+          text-align: justify;
+        }
+      }
+
+      .summary {
+        .data {
+          display: flex;
+          justify-content: space-between;
+          table {
+            width: 40%;
+
+            td {
+              padding: .5rem 0;
+            }
+
+            i {
+              font-size: 16px;
+              color: var(--heading-color);
+              margin: 0;
+            }
+
+            p {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  
+    .media {
+      background: url("../img/University/Detailed_course/jacob-bowman-356700-unsplash.png") center center / cover;
+      // margin-top: 10vh;
+      // max-height: 100vh;
+      min-height: 800px;
+
+      .side-form-icons {
+        margin: 5vh 0 0 32vw;
+      }
+    }
+  }
+}
+

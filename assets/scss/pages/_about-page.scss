@@ -1,0 +1,134 @@
+.mantra {
+  .container {
+    background-color: var(--light-grey-3);
+    position: relative;
+
+    .content {
+      padding: 60px;
+
+      h2 {
+        margin-bottom: 40px;
+      }
+    }
+
+    .media {
+      padding: 0px;
+
+      .img-fluid {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .halfway-btn {
+      left: 0%;
+      top: 50%;
+      animation: animate-video-btn 3s linear infinite;
+    }
+  }
+}
+
+.mission-section,
+.vision-section {
+  .content {
+    width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+}
+
+.values-section {
+  .content {
+    padding: 2rem;
+  }
+
+  .container {
+    .top-content {
+      .media {
+        padding: 0;
+      }
+
+      .row {
+        background-color: var(--light-grey-3);
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .bottom-content {
+      .row {
+        background-color: var(--light-grey-5);
+        padding-top: 2rem;
+        p.title {
+          text-transform: capitalize;
+          font-size: 16px;
+          color: var(--heading-color);
+        }
+      }
+    }
+  }
+}
+
+.teachers-section {
+  background-color: var(--light-grey-5);
+  position: relative;
+
+  .teachers-carousel {
+    .owl-nav {
+      div {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: var(--white);
+        background-color: rgba(#333e48, 0.8);
+        transition: all 500ms;
+        &:hover {
+          background-color: #333e48;
+        }
+
+        i {
+          color: var(--white);
+        }
+        &.owl-next {
+          left: auto;
+          right: 0;
+          top: auto;
+          bottom: 0;
+        }
+      }
+    }
+  }
+
+  .dots {
+    .owl-dot {
+      height: 20px;
+      width: 3px;
+      margin: 5px 0;
+      background-color: var(--icon-color);
+      transition: 500ms all;
+    }
+
+    .owl-dot + .active {
+      height: 50px;
+      background-color: var(--active-icon-color);
+    }
+  }
+
+  .dots {
+    position: absolute;
+    left: 4vw;
+    top: 50%;
+  }
+}
+
+.opportunity-section {
+  h2 {
+    margin-bottom: 0.75rem;
+  }
+}
